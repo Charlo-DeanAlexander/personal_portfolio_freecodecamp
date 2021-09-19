@@ -1,8 +1,8 @@
-# Freecodecamp.org challenge #4 - Technical Documentation Page
+# Freecodecamp.org challenge #5 - Personal Portfolio
 
 ## Purpose:
 
-The purpose of this project is to complete the freecodecamp.org response web design challenge #4
+The purpose of this project is to complete the freecodecamp.org response web design challenge #5
 
 ## Challenge:
 
