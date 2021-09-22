@@ -4,6 +4,7 @@
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
+    --project-name-hover-highlight: #ff7f50;
 }
 
 html {
@@ -43,17 +44,18 @@ p {
 }
 
 #nav-bar li {
-    padding: 1.5rem 1rem;
     cursor: pointer;
-}
-
-#nav-bar li:hover {
-    background-color: var(--main-blue);
+    padding: 1.48rem 1rem;
 }
 
 #nav-bar a {
     text-decoration: none;
     color: var(--main-white);
+    padding: 1.5rem 1rem;
+}
+
+#nav-bar a:hover {
+    background-color: var(--main-blue);
 }
 
 #about {
@@ -103,6 +105,12 @@ p {
     background-color: var(--main-gray);
     padding: 0.5rem 1.5rem;
     margin-top: 3rem;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+#work button:hover {
+    background-color: var(--main-red);
 }
 
 .projects-container {
@@ -121,6 +129,15 @@ p {
     max-width: 400px;
     overflow: hidden;
     cursor: pointer;
+}
+
+.project-card span {
+    color: var(--main-gray);
+    transition: color 0.25s ease-in-out;
+}
+
+.project-card:hover span {
+    color: var(--project-name-hover-highlight);
 }
 
 .project-card-caption {
@@ -162,6 +179,13 @@ p {
     color: var(--main-white);
     font-size: 1.5rem;
     text-shadow: 2px 2px black;
+    padding: 0.5rem;
+    transition: transform 0.1s linear;
+}
+
+#contact a:hover {
+    transform: translate(0px, -10px);
+    color: var(--main-red);
 }
 
 .contact-flex {
@@ -175,6 +199,7 @@ p {
 footer {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     gap: 2rem;
     border-top: 5px solid var(--main-red);
     background-color: var(--main-gray);
