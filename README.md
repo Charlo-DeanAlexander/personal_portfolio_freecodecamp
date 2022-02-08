@@ -7,3 +7,7 @@ The purpose of this project is to complete the freecodecamp.org response web des
 ## Challenge:
 
 https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage
+
+## Result:
+
+[Personal Portofolio FreeCodeCamp](https://charlo-deanalexander.github.io/personal_portfolio_freecodecamp/)
